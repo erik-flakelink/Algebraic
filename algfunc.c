@@ -9,12 +9,26 @@ int algebraic() {
   //Here lies a huge if..else statement, which runs the below commands.
 }
 //Sub Functions
-int add(); //Addition of two or more integers
-int div(); //Division of two integers.
-int sub(); //Subtraction of two or more integers.
-int mtp(); //Multiplication of two or more integers.
-int exp(); //Exponentation of a base and a power.
-int ftd(); //Floor Division of two integers.
-int sqrt(); //Square Root of an integer.
+int add(int x, int y) { //Addition of two integers
+  printf(x + y);
+}
+int div(int x, int y) { //Division of two integers.
+  printf(x / y);
+}
+int sub(int x, int y) { //Subtraction of two integers.
+  printf(x - y);
+}
+int mtp(int x, int y) { //Multiplication of two or more integers.
+  printf(x * y);
+}
+int exp(int x, int y) { //Exponentation of a base and a power.
+  printf(x ** y);
+}
+int ftd(int x, int y) { //Floor Division of two integers.
+  printf(x // y);
+}
+int sqr(int x) { //Square Root of an integer.
+  printf(sqrt(x))
+}
 int pi(); //Evaluates the pi. Takes in an integer value (int) and returns 3.141592.
 int pop(); //Power of Powers: Takes in a Base and two or more powers.
