@@ -25,7 +25,7 @@ int exp(int x, int y) { //Exponentation of a base and a power.
   printf(x ** y);
 }
 int ftd(int x, int y) { //Floor Division of two integers.
-  printf(x // y);
+  printf(floor(x/y);
 }
 int sqr(int x) { //Square Root of an integer.
   printf(sqrt(x))
